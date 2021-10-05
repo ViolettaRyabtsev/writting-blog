@@ -1,4 +1,11 @@
-{
-  "home": "hello home",
-  "about": "hello about"
-}
+[
+  {
+    "text": "hello home she loved attention ",
+    "url": "././home.jpg"
+  },
+
+  {
+    "text": "hello about",
+    "url": "././about.jpg"
+  }
+]

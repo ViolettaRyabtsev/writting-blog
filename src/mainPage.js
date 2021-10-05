@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import NavText from "./text.json";
+
 class MainPage extends React.Component {
   constructor(props) {
     super(props);
@@ -9,8 +11,18 @@ class MainPage extends React.Component {
     return (
       <div className="main-page">
         <div className="main-line"></div>
-        <h1>4 Essential Elements to Writing a Great Blog Post</h1>
-        <h4>{this.props.text}</h4>
+
+        <img
+          //props.url from app.js
+          src={NavText[0].url}
+          width="300px"
+          height="200px%"
+          margin-top="20px"
+          alt="book"
+          className="book"
+        ></img>
+
+        <h4>{NavText[0].text}</h4>
       </div>
     );
   }
