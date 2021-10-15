@@ -10,11 +10,11 @@ class CommentList extends React.Component {
     return (
       <div>
         <div className="List-group">
-          {this.props.postsPerPage.map((text) => (
+          {this.props.totalPosts.map((message) => (
             <div className="List-group-item">
               <div className="user-photo"></div>
-              <h5>user</h5>
-              <p>{text}</p>
+              <h5>{message.name}</h5>
+              <p>{message.body}</p>
             </div>
           ))}
         </div>

@@ -68,9 +68,9 @@ class App extends React.Component {
             <Route exact path="/about" component={About}></Route>
             <Route exact path="/writeYourStory" component={Writing}></Route>
             <Route exact path="/categories" component={Categories}></Route>
-            <Route exact path="/fantasy" component={Fantasy}></Route>
+            <Route exact path="/fiction" component={Fantasy}></Route>
             <Route exact path="/romance" component={Romance}></Route>
-            <Route exact path="/realism" component={Realism}></Route>
+            <Route exact path="/nonfiction" component={Realism}></Route>
             <Route exact path="/historic" component={Historic}></Route>
           </Switch>
         </Router>
