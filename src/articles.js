@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import axios from "axios";
 
-const ApiKey = "14aYr55pkAYqxbbMvmQKuBF1oarFzFAs";
+
 
 class Articles extends React.Component {
   constructor(props) {
